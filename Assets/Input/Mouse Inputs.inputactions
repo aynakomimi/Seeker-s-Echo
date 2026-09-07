@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Mouse Inputs",
+    "maps": [
+        {
+            "name": "Camera Movement",
+            "id": "6e30fbae-b047-48d0-9741-ecda8707e73d",
+            "actions": [
+                {
+                    "name": "Mouse Look",
+                    "type": "Value",
+                    "id": "7b2d1616-51e1-4c9c-b5d1-9ae5a240e2a2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Right Stick",
+                    "type": "Value",
+                    "id": "da4e8bec-cebf-4df7-871d-a4a955a09c15",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd6b3f56-8566-4a36-9af2-b2d8f63677b8",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56a5b271-197e-4f6c-bbc8-64cd46bc7ea3",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Stick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

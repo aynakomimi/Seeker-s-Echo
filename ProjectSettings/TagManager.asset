@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - whatIsGround
+  - whatIsWall
+  - Player
+  - Camera
+  - Orb
   - 
   - 
   - 
